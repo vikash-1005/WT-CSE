@@ -1,0 +1,45 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header and footer */
+header, footer {
+    background-color: rgb(120, 201, 124);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main content */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(153, 171, 177);
+}
+
+/* Styling for buttons */
+button {
+    background-color: rgb(68, 158, 83);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(8, 78, 35);
+}
+
+/* Styling TextArea and Input Fields */
+textarea, input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
