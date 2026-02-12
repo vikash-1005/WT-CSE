@@ -1,0 +1,58 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and footer */
+header, footer {
+    text-align: center;
+    background-color: #4a90e2; /* Modern blue */
+    color: #fff;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6f2ff; /* Light blue background */
+}
+
+/* Loading text */
+#loading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    color: #ff6600; /* Bright orange for visibility */
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Table cells */
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* Table header */
+th {
+    background-color: #00bfa5; /* Teal header */
+    color: #fff;
+}
+
+/* Table row hover */
+tr:hover {
+    background-color: #d0f0f5; /* Light cyan hover */
+}
