@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: rgb(175, 85, 62);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(222, 226, 228);
+}
+
+button {
+    padding: 10px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#randomNumber {
+    font-weight: bold;
+    margin: 20px;
+}
