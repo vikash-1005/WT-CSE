@@ -1,0 +1,75 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header */
+header {
+    background-color: rgb(54, 85, 151);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main content */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+}
+
+/* Styling for product and cart sections */
+#product-list, #cart {
+    width: 45%;
+}
+
+.product, #cartItems li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(89, 144, 207);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(4, 28, 63);
+}
+
+/* Styling for the total price */
+#totalPrice {
+    font-weight: bold;
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(54, 85, 151);
+    color: white;
+}
+.product img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cartItems img {
+    border-radius: 5px;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sample Shopping Cart</h1>
+    </header>
+
+    <main>
+        <section id="product-list">
+            <h2>Products</h2>
+
+            <div class="product">
+                <img src="image1.jpg" alt="chocolate" width="100">
+                <h3>Chocolate</h3>
+                <button onclick="addToCart('chocolate', 100,'image1.jpg')">
+                    Add to Cart (Rs.100)
+                </button>
+            </div>
+
+            <div class="product">
+                <img src="image2.jpg" alt="chocolate" width="100">
+                <h3>pens</h3>
+                <button onclick="addToCart('pens', 10,'image2.jpg')">
+                    Add to Cart (Rs.10)
+                </button>
+            </div>
+
+            <div class="product">
+                <img src="image3.jpg" alt="chocolate" width="100">
+                <h3>books</h3>
+                <button onclick="addToCart('books', 20,'image3.jpg')">
+                    Add to Cart (Rs.20)
+                </button>
+            </div>
+        </section>
+
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <ul id="cartItems">
+                <!-- Cart items will be added here -->
+            </ul>
+            <p id="totalPrice">Total Price: Rs.0</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shopping Cart Example</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
